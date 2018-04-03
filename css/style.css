@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff ;
+    font-family: 'Karla', "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* NAV BAR STUFF START */
+
+.navbar{
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 0px;
+    border-bottom: 3px solid #2A93D5;
+    height: 80px;
+    font-size: 18px;
+}
+
+ 
+
+.navbar li:hover{
+    background: #fff;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #2A93D5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a{
+   background: #fff;
+   color: #2A93D5;
+   font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+   background: #fff;
+   color: #2A93D5;
+   
+}
+
+/*END OF NAVBAR */
+
+
+
+
+
+/*SHOWCASE START */
+
+.showcase{
+    min-height: 500px;
+    background:url('../images/showcase.jpeg') no-repeat 0 -200px;
+    margin-right: 5px;
+    text-align: center;
+    color: #000;
+    border-bottom: 3px solid #2A93D5;
+}
+
+#showcase-text-border{
+    background: #f3f3f3;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+.showcase h1{
+  margin-top: 90px;
+  padding-top: 20px;
+}
+
+.showcase p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*END OF SHOWCASE */
+
+
+
+
+
+/*START OF BOXES */
+
+.container1{
+    display: -webkit-flex;
+    display:flex;
+    padding: 10px;
+    justify-content:space-between;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.container1 div{
+    border:1px solid #2A93D5;
+    text-align: center;
+}
+
+.boxes{
+    height: 350px;
+    width: 23%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #F2F2F2;
+
+}
+
+.boxes h2{
+    text-decoration: underline;
+    
+}
+
+
+
+/*END OF BOXES */
+
+
+
+
+/*START OF NEWS */
+
+#news{
+    background: #F2F2F2;
+    padding: 10px;
+    border-top: 3px solid #2A93D5;
+    min-height: 250px;
+    
+}
+
+/*END OF NEWS */
+
+
+
+/*START OF SUBSCRIBE FORM*/
+
+#subscribe {
+ background: #F2F2F2;
+max-height: 300px;
+    text-align: center;
+
+}
+
+.form-container h2{
+    font-size: 40px;
+}
+
+.form-container {
+    background: #2A93D5;
+    min-height: 250px;
+    opacity: .9;
+    border-radius: 5px;
+}
+
+.form-container form{
+  margin-top: 40px;
+
+}
+
+
+.form-container input{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-container button{
+    width: 41%;
+}
+
+
+
+
+
+/*END OF FORM */
+
+
+
+/*FOOTER */
+
+#footer{
+    text-align: center;
+    background: #F2F2F2;
+    padding: 30px;
+}
+
+
+
+
+
+/*CSS FOR ABOUT.HTML */
+
+
+.about-us-showcase {
+    background: #f3f3f3;
+}
+
+.solutions {
+    margin: 0 auto;
+    padding: 10px;
+    height: 100px;
+    margin-top: 40px;
+
+}
+
+
+
+
+
+.showcase-solutions{
+    border-top: 3px solid #2A93D5;
+    padding: 10px;
+    
+    
+}
+
+.showcase-solutions:hover{
+    background: #f3f3f3;
+}
+
+#technology-solutions {
+    padding-bottom: 40px;
+    border-bottom: 3px solid #2A93D5;
+}
+
+.contact-subscribe{
+    padding-top: 30px;
+}
+
+
+
+
+/*CONTACT PAGE */
+
+.form {
+    
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.form-group{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+.contact-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .boxes{
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar-default .navbar-toggle:hover {
+        background: #fff; !important;
+    }
+    .navbar-collapse{
+        background: #fff;
+        position: relative;
+        
+    }
+
+
+}
+
+
+@media only screen and (max-width: 995px) {
+    .solutions {
+        text-align: center;
+        margin-top: 30px;
+        float: left;
+        height: 80px;
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 758px) {
+    .solutions {
+        text-align: center;
+        float: left;
+        height: 25px;
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+    
+    
+
+
+}
+
+@media only screen and (max-width: 649px) {
+    #solutions{
+        display: none;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

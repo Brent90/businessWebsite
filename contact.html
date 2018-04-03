@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+
+    <title>Business Solutions</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> 
+    
+ 
+
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">Custom Business Solutions</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="#contact">Contact</a></li>
+          </ul>
+          
+           <ul class="nav navbar-nav navbar-right" >
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          </ul>
+          
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    
+    
+    <div class="form">
+    <div class="container">
+         <form class="form-group">
+          <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          
+          <div class="form-group">
+            <label for="pwd">Name:</label>
+            <input type="text" class="form-control" id="text">
+          </div>
+          
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Leave us a message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+            
+            <div class="form-group">
+          <button type="submit" class="btn btn-default" style="margin-top: 6px;">Submit</button>
+             </div>
+         </form> 
+    </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+       <section id="footer" class="contact-footer">
+        <div class="container">
+            <footer>
+                <h4> &copy; 2017 Business Solutions; </h4>
+            </footer>
+            
+        </div>
+      </section>
+    
+
+    
+    
+    
+    
+    
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+     <script type="text/javascript"  src="js/main.js"></script>
+     
+     
+     <script>
+      
+         $(document).ready(function(){
+     var num = 1;
+   $('.toggle').on('click', function(){
+      
+       if(num % 2 ==0){
+            $('#showcase-text-border').css('margin-top', '');
+            num++;
+    } 
+       else if(!num%2==0){
+        $('#showcase-text-border').css('margin-top', '250px');
+        num++;   
+    }
+       
+       
+    });
+   
+       
+    
+   });
+   
+      
+      </script>
+
+  </body>
+</html>
